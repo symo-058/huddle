@@ -1,0 +1,129 @@
+body {
+    background-image: url("/images/bg-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #674baf;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    
+    
+}
+
+.huddle img {
+    padding: 45px;
+    width: 40%;
+    margin: 0;
+}
+.illustrator img {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pass p {
+    color: white;
+    opacity: 85%;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    color: #ac8ef8;
+    border: none;
+
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    color: white;
+    margin-top: 50px;
+
+}
+
+li {
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 10px;
+}
+
+button:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+
+@media ( min-width: 576px) {
+  .main-container {
+    display: flex;
+    margin-top: 0;
+  } 
+
+  .container-a {
+    width: 150%;
+  }
+
+  h2 {
+    margin: 0;
+    text-align: left;
+  }
+
+  .pass p {
+    text-align: left;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  button {
+    display: flex;
+    /* justify-content: left; */
+    margin: 0;
+    width: 200px;
+    padding: 15px;
+    margin-top: 50px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+    
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+
+  .container-b {
+    width: 100%;
+  }
+
+  .huddle {
+    margin-top: 0;
+    width: 50%;
+  }
+
+   body {
+    ba
+   }
+}
