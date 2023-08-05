@@ -76,11 +76,11 @@ button:hover {
 @media ( min-width: 576px) {
 
   body {
-    background-image: url("/images/bg-desktop.svg");
+    background-image: url("./images/bg-desktop.svg");
     background-size: cover;
     background-repeat: no-repeat;
    }
-   
+
   .main-container {
     display: flex;
     margin-top: 0;
