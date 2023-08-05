@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/bg-mobile.svg");
+    background-image: url("./images/bg-mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #674baf;
@@ -124,6 +124,7 @@ button:hover {
   }
 
    body {
-    ba
+    background-image: url("./images/bg-desktop.svg");
+    background-size: cover;
    }
 }
